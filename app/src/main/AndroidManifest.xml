@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.enobyte.uasmainurrahman">
+    package="com.example.UASsms.anangkurniawan">
 
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.UASsms.anangkurniawan.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -23,17 +23,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SendSMS" />
+        <activity android:name="com.example.UASsms.anangkurniawan.SendSMS" />
 
         <receiver
-            android:name=".SmsReceiver"
+            android:name="com.example.UASsms.anangkurniawan.SmsReceiver"
             android:permission="android.permission.BROADCAST_SMS">
             <intent-filter android:priority="2147483647">
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
         </receiver>
 
-        <activity android:name=".DetailReadSMS"></activity>
+        <activity android:name="com.example.UASsms.anangkurniawan.DetailReadSMS"></activity>
     </application>
 
 </manifest>

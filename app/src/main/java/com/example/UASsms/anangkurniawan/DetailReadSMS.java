@@ -1,14 +1,13 @@
-package com.example.enobyte.uasmainurrahman;
+package com.example.UASsms.anangkurniawan;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.example.enobyte.uasmainurrahman.adapter.ListSMSDetailAdapter;
-import com.example.enobyte.uasmainurrahman.adapter.ListSMSRecieveAdapter;
-import com.example.enobyte.uasmainurrahman.database.TableSmsAdapter;
-import com.example.enobyte.uasmainurrahman.database.Tablesms;
+import com.example.UASsms.anangkurniawan.adapter.ListSMSDetailAdapter;
+import com.example.UASsms.anangkurniawan.database.TableSmsAdapter;
+import com.example.UASsms.anangkurniawan.database.Tablesms;
 
 import java.util.ArrayList;
 import java.util.List;
