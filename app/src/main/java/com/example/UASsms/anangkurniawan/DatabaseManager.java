@@ -17,7 +17,7 @@ import java.sql.SQLException;
  */
 public class DatabaseManager extends OrmLiteSqliteOpenHelper {
 
-    private static final String DATABASE_PATH = "/data/data/com.example.enobyte.uasmainurrahman/databases/";
+    private static final String DATABASE_PATH = "/data/data/com.example.UASsms.anangkurniawan/databases/";
     private Dao<Tablesms, Integer> tablesmsDAO = null;
 
 
